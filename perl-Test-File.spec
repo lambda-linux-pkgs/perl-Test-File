@@ -55,6 +55,11 @@ make test
 %{_mandir}/man3/Test::File.3*
 
 %changelog
+* Mon Dec 29 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 1.36-1
+- Adapt for AL/LL
+- Add package support URL
+- Import source package EPEL7/perl-Test-File-1.36-1.el7
+
 * Thu Jan  2 2014 Paul Howarth <paul@city-fan.org> - 1.36-1
 - Update to 1.36
   - Fix bad line counts on latest dev version of Perl (CPAN RT#89849)
