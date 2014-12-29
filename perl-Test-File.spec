@@ -1,7 +1,9 @@
+%define _buildid .2
+
 Summary:	Test file attributes through Test::Builder
 Name:		perl-Test-File
 Version:	1.36
-Release:	1%{?dist}
+Release:	1%{?_buildid}%{?dist}
 Group:		Development/Libraries
 License:	GPL+ or Artistic
 URL:		http://search.cpan.org/dist/Test-File/
